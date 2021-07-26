@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+
+  .headerLinks {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+
+    a {
+      margin-right: 5%;
+    }
+  }
+}
