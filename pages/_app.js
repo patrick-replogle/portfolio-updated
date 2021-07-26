@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from '../components/header/header';
+import Header from '../components/header';
 import Footer from '../components/footer';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -8,12 +8,14 @@ import '../styles/globals.css';
 
 const Portfolio = ({ Component, pageProps }) => {
   return (
-    <div>
+    <div className="wrapper">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Header />
-      <Component {...pageProps} />
+      <div>
+        <Header />
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </div>
   );

@@ -1,4 +1,10 @@
-const projects = [
+import battleship from '../public/images/battleship.png';
+import bugtracker from '../public/images/bugtracker.png';
+import comake from '../public/images/comake.png';
+import conways from '../public/images/conways.png';
+import neighborhoodchef from '../public/images/neighborhoodchef.png';
+
+export const projects = [
   {
     id: 1,
     name: 'Bugtracker',
@@ -9,7 +15,8 @@ const projects = [
     Cloudinary and Heroku. The front end was designed using Nuxt, Vue, Bootstrap and Netlify.`,
     deployedUrl: 'https://bugtracker-frontend.netlify.app/',
     frontendGithubUrl: 'https://github.com/patrick-replogle/bugtracker-fe',
-    backendGithubUrl: 'https://github.com/patrick-replogle/bugtracker-be'
+    backendGithubUrl: 'https://github.com/patrick-replogle/bugtracker-be',
+    imgSrc: bugtracker
   },
 
   {
@@ -23,7 +30,9 @@ const projects = [
     deployedUrl: 'https://neighborhoodchef.netlify.app/',
     frontendGithubUrl:
       'https://github.com/patrick-replogle/neighborhood-chef-fe',
-    backendGithubUrl: 'https://github.com/patrick-replogle/neighborhood-chef-be'
+    backendGithubUrl:
+      'https://github.com/patrick-replogle/neighborhood-chef-be',
+    imgSrc: neighborhoodchef
   },
 
   {
@@ -38,7 +47,8 @@ const projects = [
     play through in real time or click to view each cycle one at a time.`,
     deployedUrl: 'https://conways-game-of-life-pearl.vercel.app',
     frontendGithubUrl:
-      'https://github.com/patrick-replogle/Conways-Game-of-Life'
+      'https://github.com/patrick-replogle/Conways-Game-of-Life',
+    imgSrc: conways
   },
 
   {
@@ -52,7 +62,8 @@ const projects = [
       Yup, and Material UI.`,
     deployedUrl: 'https://co-make-fe.herokuapp.com',
     backendGithubUrl: 'https://github.com/patrick-replogle/co-make-be',
-    frontendGithubUrl: 'https://github.com/patrick-replogle/co-make-fe'
+    frontendGithubUrl: 'https://github.com/patrick-replogle/co-make-fe',
+    imgSrc: comake
   },
 
   {
@@ -65,11 +76,12 @@ const projects = [
       five of the computer's ships and you win the game!`,
     techStack: `This project was created using React and styled-components`,
     deployedUrl: 'https://battleship-six.vercel.app/',
-    frontedGithubUrl: 'https://github.com/patrick-replogle/battleship'
+    frontedGithubUrl: 'https://github.com/patrick-replogle/battleship',
+    imgSrc: battleship
   }
 ];
 
-const skills = [
+export const skills = [
   'React',
   'Next',
   'Javascript',

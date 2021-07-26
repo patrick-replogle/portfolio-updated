@@ -1,9 +1,20 @@
+import Image from 'next/image';
+import { projects } from '../util/data';
+
 const Project = () => {
-    return (
-        <div>
-            <h1>projects</h1>
-        </div>
-    )
-}
+  console.log(projects);
+  return (
+    <div>
+      {projects.map(p => {
+        return (
+          <div>
+            <p>hello</p>
+            <Image src={p.imgSrc} />
+          </div>
+        );
+      })}
+    </div>
+  );
+};
 
 export default Project;

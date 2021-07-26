@@ -1,16 +1,40 @@
-.header {
-  display: flex;
+.nav {
+  padding: 10px 50px;
+  background: #082c40;
+  color: white;
+  position: relative;
   align-items: center;
+  display: flex;
   justify-content: space-between;
   width: 100vw;
-
-  .headerLinks {
+  @media (max-width: 600px) {
+    padding: 10px 20px;
+  }
+  .left {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h3 {
+      font-size: 2.5rem;
+      @media (max-width: 600px) {
+        font-size: 2rem;
+      }
+    }
+  }
+  .right {
+    width: 60%;
     display: flex;
     justify-content: flex-end;
-    width: 50%;
 
     a {
-      margin-right: 5%;
+      color: white;
+      text-decoration: none;
+      font-size: 20rem;
+      margin-right: 20%;
+      @media (max-width: 600px) {
+        font-size: 1.6rem;
+      }
     }
   }
 }
