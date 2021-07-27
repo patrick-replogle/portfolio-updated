@@ -23,12 +23,12 @@ const Project = () => {
                 </a>
                 {project.backendGithubUrl && (
                   <a href={project.backendGithubUrl} target="_blank">
-                    BACK-END REPO
+                    BACK-END CODE
                   </a>
                 )}
 
                 <a href={project.frontendGithubUrl} target="_blank">
-                  FRONT-END REPO
+                  FRONT-END CODE
                 </a>
               </div>
             </div>

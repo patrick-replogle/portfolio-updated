@@ -8,6 +8,7 @@
   height: auto;
   justify-content: center;
   width: 100vw;
+  padding: 10px;
 
   .content {
     display: flex;
@@ -18,12 +19,12 @@
     .icons {
       font-size: 2.5rem;
 
-      .icons > svg {
-        margin-left: 100px;
+      .icon {
       }
     }
 
-    p {
+    span {
+      margin: 2% 0;
     }
   }
 }

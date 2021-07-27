@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   width: 100vw;
+  height: 5rem;
   @media (max-width: 600px) {
     padding: 10px 20px;
   }
@@ -15,23 +16,29 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @media (max-width: 600px) {
+      width: 40%;
+    }
     h3 {
       font-size: 2rem;
       @media (max-width: 600px) {
-        font-size: 2rem;
+        font-size: 1.6rem;
       }
     }
   }
   .right {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: flex-end;
+
+    :first-child {
+      margin-right: 5%;
+    }
 
     a {
       color: white;
       text-decoration: none;
       font-size: 1.4rem;
-      margin-right: 3%;
       @media (max-width: 600px) {
         font-size: 1.6rem;
       }

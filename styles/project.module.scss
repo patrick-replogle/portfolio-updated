@@ -7,18 +7,21 @@
   .project {
     display: flex;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 6px;
     width: 95%;
     margin: 1%;
     padding: 10px;
 
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
       flex-direction: column;
     }
 
     .left {
       width: 40%;
+      @media (max-width: 800px) {
+        width: 100%;
+      }
       img {
         width: 100%;
         object-fit: cover;
@@ -30,17 +33,31 @@
       flex-direction: column;
       width: 60%;
       padding: 10px 10px 10px 60px;
+      @media (max-width: 800px) {
+        width: 100%;
+        padding: 0;
+      }
+
       .buttonContainer {
         display: flex;
         flex-direction: column;
+        @media (max-width: 800px) {
+          flex-direction: row;
+        }
         a {
-          border: 1px solid black;
+          border: 1px solid lightgray;
           border-radius: 20px;
           width: 30%;
           display: flex;
           justify-content: center;
           padding: 10px;
           margin: 1%;
+          text-decoration: none;
+          color: black;
+
+          @media (max-width: 800px) {
+            padding: 5px;
+          }
         }
       }
     }
