@@ -11,27 +11,27 @@
     padding: 10px 20px;
   }
   .left {
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     h3 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       @media (max-width: 600px) {
         font-size: 2rem;
       }
     }
   }
   .right {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
 
     a {
       color: white;
       text-decoration: none;
-      font-size: 20rem;
-      margin-right: 20%;
+      font-size: 1.4rem;
+      margin-right: 3%;
       @media (max-width: 600px) {
         font-size: 1.6rem;
       }

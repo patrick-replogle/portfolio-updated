@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .project {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 95%;
+    margin: 1%;
+    padding: 10px;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .left {
+      width: 40%;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      padding: 10px 10px 10px 60px;
+      .buttonContainer {
+        display: flex;
+        flex-direction: column;
+        a {
+          border: 1px solid black;
+          border-radius: 20px;
+          width: 30%;
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+          margin: 1%;
+        }
+      }
+    }
+  }
+}

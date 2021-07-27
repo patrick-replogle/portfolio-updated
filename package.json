@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@iconify-icons/akar-icons": "^1.1.17",
+    "@iconify-icons/cib": "^1.1.0",
+    "@iconify/react": "^1.1.4",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^5.0.0-beta3",
     "next": "11.0.1",

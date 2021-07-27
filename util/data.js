@@ -76,7 +76,7 @@ export const projects = [
       five of the computer's ships and you win the game!`,
     techStack: `This project was created using React and styled-components`,
     deployedUrl: 'https://battleship-six.vercel.app/',
-    frontedGithubUrl: 'https://github.com/patrick-replogle/battleship',
+    frontendGithubUrl: 'https://github.com/patrick-replogle/battleship',
     imgSrc: battleship
   }
 ];
