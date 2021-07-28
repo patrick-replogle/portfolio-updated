@@ -21,7 +21,7 @@ const Portfolio = ({ Component, pageProps }) => {
           rel="stylesheet"
         />
       </Head>
-      <div style={{ paddingBottom: '9rem' }}>
+      <div style={{ paddingBottom: '10rem' }}>
         <Header />
         <Component {...pageProps} />
       </div>
