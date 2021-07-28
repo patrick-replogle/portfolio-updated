@@ -1,8 +1,8 @@
 # Patrick Replogle Portfolio
 
-Deployed portfolio:
+Deployed portfolio: https://www.patrick-replogle.com/
 
-I am a full stack web developer and music nerd at heart from Portland, OR. Some technologies I use are React, Javascript, Python, Node, CSS, HTML, Graphql, Postgres, SQL, Redux, Context API, Java, Spring Boot, Vue, Nuxt Apollo and Express. Feel free to get in touch if you want to network or collaborate on a project.
+I'm a full stack web developer and music nerd at heart from Portland, OR. Some technologies I use are React, Javascript, Vue, Nuxt, Python, Node, CSS, HTML, Graphql, Postgres, SQL, Redux, Context API, Java, Spring Boot, Apollo and Express. Feel free to get in touch if you want to network or collaborate on a project.
 
 |                                                          [Patrick Replogle](https://github.com/patrick-replogle)                                                          |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |

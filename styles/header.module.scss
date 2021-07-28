@@ -21,6 +21,9 @@
       @media (max-width: 600px) {
         font-size: 1.4rem;
       }
+      @media (max-width: 400px) {
+        font-size: 1.2rem;
+      }
     }
   }
   .right {
@@ -30,6 +33,9 @@
 
     :first-child {
       margin-right: 5%;
+      @media (max-width: 600px) {
+        margin-right: 12%;
+      }
     }
 
     a {
@@ -38,6 +44,10 @@
       font-size: 1.4rem;
       @media (max-width: 600px) {
         font-size: 1.2rem;
+      }
+
+      @media (max-width: 400px) {
+        font-size: 1rem;
       }
     }
   }

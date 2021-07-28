@@ -4,6 +4,9 @@
   justify-content: center;
   align-items: center;
   margin-top: 1%;
+  @media (max-width: 800px) {
+    margin-top: 4%;
+  }
 
   .project {
     display: flex;
@@ -17,6 +20,7 @@
 
     @media (max-width: 800px) {
       flex-direction: column;
+      margin: 2% 1% 2% 1%;
     }
 
     .left {
@@ -73,7 +77,7 @@
           }
 
           @media (max-width: 800px) {
-            width: 40%;
+            width: 60%;
             margin: 2% 0;
           }
         }

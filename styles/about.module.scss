@@ -2,9 +2,12 @@
   display: flex;
   justify-content: center;
   margin-top: 1%;
+  @media (max-width: 800px) {
+    margin-top: 4%;
+  }
   .details {
     background-color: white;
-    width: 98%;
+    width: 95%;
     margin: 1%;
     padding: 10px;
     border-radius: 6px;
