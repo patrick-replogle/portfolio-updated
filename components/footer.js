@@ -14,23 +14,15 @@ const Footer = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              style={{
-                width: '40px',
-                height: '40px',
-                margin: '1%',
-                cursor: 'pointer'
-              }}
+              className={style.icon}
+              style={{ marginTop: '1%' }}
             />
           </a>
           <a href="https://github.com/patrick-replogle" target="_blank">
             <FontAwesomeIcon
               icon={faGithub}
-              style={{
-                width: '40px',
-                height: '40px',
-                marginLeft: '20%',
-                cursor: 'pointer'
-              }}
+              className={style.icon}
+              style={{ marginLeft: '20%' }}
             />
           </a>
         </div>

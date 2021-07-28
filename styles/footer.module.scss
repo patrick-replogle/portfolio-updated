@@ -20,10 +20,10 @@
       width: 100%;
       display: flex;
       justify-content: center;
-      .icons > * {
-        width: 20px;
-        height: 20px;
-        color: white;
+      .icon {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
       }
     }
 

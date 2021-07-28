@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import '../styles/globals.css';
+import '../styles/globals.scss';
 
 const Portfolio = ({ Component, pageProps }) => {
   return (
