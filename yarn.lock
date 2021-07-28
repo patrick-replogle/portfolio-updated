@@ -103,21 +103,6 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@iconify-icons/akar-icons@^1.1.17":
-  version "1.1.17"
-  resolved "https://registry.yarnpkg.com/@iconify-icons/akar-icons/-/akar-icons-1.1.17.tgz#f765416ec8429f7d9cb3f9d7bf7df81a5f2250cc"
-  integrity sha512-HfmMly/+CN8Phcjz+5nhCGeyYooIymfcLI1NM14yr6EmVkT8vrtLtJMxgTWWRr7RDcxFGMRoy26rNdVrfXw2uA==
-
-"@iconify-icons/cib@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@iconify-icons/cib/-/cib-1.1.0.tgz#fa501d6b95905da3062769552bdb4ec3a6ebac5a"
-  integrity sha512-LHzntpL0U81scxMb82Tpop76MZNG9cIRgjBodLCk98Lv2Y06GfLD787JdVjfVbB2XhzkHSxAAmKeCX9Lx50wsQ==
-
-"@iconify/react@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@iconify/react/-/react-1.1.4.tgz#c778eddbaf196e55705d0bedff00d039dc1de8d3"
-  integrity sha512-oxq8IMOq8q3nKGiDHbQPC8FcFuBsKve68JWBo140d5LRnj0bv5TB/FE/y01ZSvEZ7PlI2HIrnb2qivPN8kTDgw==
-
 "@next/env@11.0.1":
   version "11.0.1"
   resolved "https://registry.npmjs.org/@next/env/-/env-11.0.1.tgz"

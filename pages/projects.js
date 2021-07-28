@@ -10,10 +10,10 @@ const Project = () => {
         return (
           <div className={style.project} key={project.id}>
             <div className={style.left}>
-              <Image src={project.imgSrc} />
+              <Image src={project.imgSrc} alt="project avatar" />
             </div>
             <div className={style.right}>
-              <h3>{project.name}</h3>
+              <span>{project.name}</span>
               <p>{project.description}</p>
               <p>{project.techStack}</p>
 
