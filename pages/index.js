@@ -21,8 +21,10 @@ const About = () => {
             while my decades of experience as an audio engineer/musician has
             trained me to appreciate the lifelong learning process that comes
             with mastering a difficult craft. I'm always willing to work on an
-            interesting project or learn a new technology. Feel free to get in
-            touch if you'd like to collaborate on a project.
+            interesting project or learn a new technology.
+          </p>
+          <p>
+            Feel free to get in touch if you'd like to collaborate on a project.
           </p>
           <p>Some technologies I use:</p>
           <div className={styles.skills}>

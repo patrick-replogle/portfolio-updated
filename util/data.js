@@ -101,6 +101,5 @@ export const skills = [
   'PostgreSQL',
   'Less / Sass',
   'Git / Github workflows',
-  'Data Structures & Algorithms',
   'Jest'
 ];
