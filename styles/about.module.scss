@@ -39,7 +39,10 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      font-size: 1.1rem;
+      font-size: 1.5rem;
+      @media (max-width: 1480px) {
+        font-size: 1.1rem;
+      }
 
       @media (max-width: 800px) {
         width: 100%;

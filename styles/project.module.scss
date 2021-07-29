@@ -48,14 +48,20 @@
       }
 
       span {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        @media (max-width: 1480px) {
+          font-size: 1.8rem;
+        }
         @media (max-width: 800px) {
           margin-top: 1%;
         }
       }
 
       p {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
+        @media (max-width: 1480px) {
+          font-size: 1.1rem;
+        }
       }
 
       .buttonContainer {
@@ -73,9 +79,13 @@
           margin: 1%;
           text-decoration: none;
           color: black;
-          font-size: 0.8rem;
           border: 1px solid rgb(0 0 0 / 20%);
           transition: 0.5s;
+          font-size: 1.5rem;
+          font-size: 1rem;
+          @media (max-width: 1480px) {
+            font-size: 0.8rem;
+          }
 
           &:hover {
             border: 1px solid #e3a554;
