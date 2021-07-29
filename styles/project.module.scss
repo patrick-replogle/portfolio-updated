@@ -10,7 +10,7 @@
 
   .project {
     display: flex;
-    align-items: center;
+    //align-items: center;
     border: 1px solid (0 0 0 / 20%);
     border-radius: 6px;
     width: 95%;
@@ -26,6 +26,7 @@
     .left {
       width: 40%;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      display: flex;
       @media (max-width: 800px) {
         width: 100%;
       }
@@ -53,6 +54,10 @@
         }
       }
 
+      p {
+        font-size: 1.1rem;
+      }
+
       .buttonContainer {
         display: flex;
         flex-direction: column;
@@ -70,6 +75,7 @@
           color: black;
           font-size: 0.8rem;
           border: 1px solid rgb(0 0 0 / 20%);
+          transition: 0.5s;
 
           &:hover {
             border: 1px solid #e3a554;
