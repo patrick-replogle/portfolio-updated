@@ -57,7 +57,7 @@ export const projects = [
     description: `CoMake is a solution oriented web app geared towards bringing community members together to solve local problems. 
       CoMake provides users with a platfrom to call attention to local issues, volunteer their time or resources, or simply 
       ask for help.`,
-    techStack: `CoMake is a full stack app that a built myself. The backend was created with Node JS, Express, Knex, bcryptjs, SQLite3, 
+    techStack: `CoMake is a full stack app that I built myself. The backend was created with Node JS, Express, Knex, bcryptjs, SQLite3, 
       PostrgeSQL, Heroku, Jest, Supertest, and jsonwebtokens. The front end was designed using React, Context API, Sass, Formik,
       Yup, and Material UI.`,
     deployedUrl: 'https://co-make-fe.herokuapp.com',
