@@ -74,7 +74,7 @@ export const projects = [
       are concealed from the other player and players alternate turns calling "shots" at the other player's 
       ships. The second player in this implementation of Battleship is played by the computer. Destroy all 
       five of the computer's ships and you win the game!`,
-    techStack: `This project was created using React and styled-components`,
+    techStack: `I created this rendition of Battleship using React and styled-components`,
     deployedUrl: 'https://battleship-six.vercel.app/',
     frontendGithubUrl: 'https://github.com/patrick-replogle/battleship',
     imgSrc: battleship
