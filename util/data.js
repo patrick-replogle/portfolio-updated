@@ -24,7 +24,7 @@ export const projects = [
     name: 'Neighborhood Chef',
     description: `Neighborhood Chef provides a uniquely intimate approach to social culinary gatherings, allowing for both the creation and attending 
     of culinary events in your neighborhood.`,
-    techStack: `I designed and built this app along with one UX designer and a very small team of web developers. The backend was built using
+    techStack: `I designed and built this app along with one UX designer and a small team of web developers. The backend was built using
     Node, Graphql, Express, Okta, Knex, PostrgreSQL, Cloudinary, Heroku and Docker. The frontend was built using React, Redux Hooks, Graphql,
     Material UI, Mapbox, Netlify, Formik, and Yup.`,
     deployedUrl: 'https://neighborhoodchef.netlify.app/',
