@@ -9,7 +9,14 @@ const Portfolio = ({ Component, pageProps }) => {
     <div className="wrapper">
       <Head>
         <title>Patrick Replogle's Portfolio</title>
+        <meta charSet="UTF-8" />
+        <meta name="keywords" content="Web Developer, React, Javascript" />
+        <meta name="author" content="Patrick Replogle" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Patrick Replogle's Portfolio Website"
+        ></meta>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

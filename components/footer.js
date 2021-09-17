@@ -11,6 +11,8 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/patrick-replogle/"
             target="_blank"
+            aria-label="LinkedIn"
+            rel="noopener"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -18,7 +20,12 @@ const Footer = () => {
               style={{ marginTop: '1%' }}
             />
           </a>
-          <a href="https://github.com/patrick-replogle" target="_blank">
+          <a
+            href="https://github.com/patrick-replogle"
+            target="_blank"
+            aria-label="Github"
+            rel="noopener"
+          >
             <FontAwesomeIcon
               icon={faGithub}
               className={style.icon}
