@@ -7,6 +7,7 @@ const Contact = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
+  const [errors, setErrors] = useState({});
 
   const clearForm = () => {
     setEmail('');
@@ -14,24 +15,36 @@ const Contact = () => {
     setMessage('');
   };
 
+  const checkErrors = () => {
+    const temp = {};
+    if (email.trim().length <= 0) temp.email = true;
+    if (subject.trim().length <= 0) temp.subject = true;
+    if (message.trim().length <= 0) temp.message = true;
+    setErrors({ ...temp });
+    return Object.keys(temp).length === 0;
+  };
+
   const handleSubmit = async e => {
     e.preventDefault();
-    const data = { email, subject, message };
     setSuccessMsg('');
 
-    fetch('/api/contact', {
-      method: 'post',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    })
-      .then(res => res.json())
-      .then(() => {
-        setSuccessMsg("Thank you for reaching out! I'll be touch shortly.");
-        clearForm();
+    if (checkErrors()) {
+      const data = { email, subject, message };
+
+      fetch('/api/contact', {
+        method: 'post',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
       })
-      .catch(err => console.log(err));
+        .then(res => res.json())
+        .then(() => {
+          setSuccessMsg("Thanks for reaching out! I'll be in touch shortly.");
+          clearForm();
+        })
+        .catch(err => console.log(err));
+    }
   };
 
   return (
@@ -46,8 +59,12 @@ const Contact = () => {
               type="email"
               id="email"
               value={email}
+              style={{
+                border: errors.email
+                  ? '1px solid crimson'
+                  : '1px solid rgb(0 0 0 / 30%)'
+              }}
               onChange={e => setEmail(e.target.value)}
-              required
             />
           </div>
           <div className={styles.inputContainer}>
@@ -57,9 +74,13 @@ const Contact = () => {
             <input
               type="text"
               id="subject"
+              style={{
+                border: errors.subject
+                  ? '1px solid crimson'
+                  : '1px solid rgb(0 0 0 / 30%)'
+              }}
               value={subject}
               onChange={e => setSubject(e.target.value)}
-              required
             />
           </div>
         </div>
@@ -70,9 +91,13 @@ const Contact = () => {
           <textarea
             type="textarea"
             id="message"
+            style={{
+              border: errors.message
+                ? '1px solid crimson'
+                : '1px solid rgb(0 0 0 / 30%)'
+            }}
             value={message}
             onChange={e => setMessage(e.target.value)}
-            required
           />
         </div>
         <button type="submit">Submit</button>

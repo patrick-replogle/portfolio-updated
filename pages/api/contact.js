@@ -13,14 +13,13 @@ async function sendEmail(req, res) {
       <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
-        <link rel="stylesheet" href="css/styles.css?v=1.0">
       
       </head>
       
       <body>
-        <div class="img-container" style="display: flex;justify-content: center;align-items: center;border-radius: 5px;overflow: hidden; font-family: 'helvetica', 'ui-sans';">              
+        <div style="display: flex; justify-content: center; align-items: center; border-radius: 5px; overflow: hidden; font-family: 'helvetica', 'ui-sans';">              
               </div>
-              <div class="container" style="margin-left: 20px;margin-right: 20px;">
+              <div style="margin-left: 20px; margin-right: 20px;">
               <h3>You've got a new mail from ${req.body.email}</h3>
               <h4>Subject: ${req.body.subject}</h4>
               <div style="font-size: 16px;">
@@ -33,7 +32,6 @@ async function sendEmail(req, res) {
       </html>`
     });
   } catch (error) {
-    console.dir(error);
     return res.status(error.statusCode || 500).json({ error: error.message });
   }
 

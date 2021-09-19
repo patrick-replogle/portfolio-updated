@@ -9,7 +9,11 @@
   width: 100vw;
   height: 5rem;
   @media (max-width: 600px) {
-    padding: 10px;
+    padding: 5px;
+  }
+
+  @media (max-width: 400px) {
+    height: 4rem;
   }
   .left {
     width: 60%;
@@ -22,7 +26,7 @@
         font-size: 1.4rem;
       }
       @media (max-width: 400px) {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
       }
     }
   }
@@ -30,13 +34,6 @@
     width: 40%;
     display: flex;
     justify-content: flex-end;
-
-    // :first-child {
-    //   margin-right: 5%;
-    //   @media (max-width: 600px) {
-    //     margin-right: 12%;
-    //   }
-    // }
 
     a {
       color: white;
@@ -48,7 +45,8 @@
       }
 
       @media (max-width: 400px) {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        margin-right: 5%;
       }
     }
   }
