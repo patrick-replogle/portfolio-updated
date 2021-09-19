@@ -1,5 +1,5 @@
 .nav {
-  padding: 10px 50px;
+  padding: 10px 30px;
   background: #082c40;
   color: white;
   position: relative;
@@ -9,7 +9,7 @@
   width: 100vw;
   height: 5rem;
   @media (max-width: 600px) {
-    padding: 5px;
+    padding: 10px;
   }
 
   @media (max-width: 400px) {
