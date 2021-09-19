@@ -31,17 +31,18 @@
     display: flex;
     justify-content: flex-end;
 
-    :first-child {
-      margin-right: 5%;
-      @media (max-width: 600px) {
-        margin-right: 12%;
-      }
-    }
+    // :first-child {
+    //   margin-right: 5%;
+    //   @media (max-width: 600px) {
+    //     margin-right: 12%;
+    //   }
+    // }
 
     a {
       color: white;
       text-decoration: none;
       font-size: 1.4rem;
+      margin-right: 5%;
       @media (max-width: 600px) {
         font-size: 1.2rem;
       }
