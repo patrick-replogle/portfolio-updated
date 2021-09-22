@@ -14,8 +14,9 @@ const About = () => {
           <Image src={portrait} alt="portrait" />
         </div>
         <div className={styles.right}>
+          <h1>About Me</h1>
           <p>
-            I'm a full stack web developer and music nerd at heart from
+            I'm a full stack web developer and Lambda School graduate based in
             Portland, OR. My extensive background in sales and customer service
             has honed my ability to work effectively on teams of all sizes,
             while my decades of experience as an audio engineer/musician has
@@ -24,9 +25,10 @@ const About = () => {
             interesting project or learn a new technology.
           </p>
           <p>
-            Feel free to get in touch if you'd like to collaborate on a project.
+            In my spare time I enjoy writing and recording music, reading,
+            hiking with my dog and searching fors the ultimate tacos.
           </p>
-          <p>Some technologies I use:</p>
+          <p>Some technologies I've been working with recently:</p>
           <div className={styles.skills}>
             <ul>
               {skills.map((skill, index) => (

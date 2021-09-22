@@ -11,8 +11,8 @@ export const projects = [
     description: `Bugtracker is a web app designed to help developers keep track of bugs and issues accross multiple projects. Basic
     features include user onboarding, the ability to create projects and add users to each project. Create and assign tickets
     based on priority level and comment on tickets.`,
-    techStack: `Bugtracker is a full stack app that a built myself. The backend was created with Java, Spring Boot, Maven, PostgreSQL, OAUTH,
-    Cloudinary and Heroku. The front end was designed using Nuxt, Vue, Bootstrap and Netlify.`,
+    techStack: `I built the backend using Java, Spring Boot, Maven, PostgreSQL, OAUTH,
+    Cloudinary and Heroku and I designed and implemented the front end using using Nuxt, Vue, Bootstrap and Netlify.`,
     deployedUrl: 'https://bugtracker-frontend.netlify.app/',
     frontendGithubUrl: 'https://github.com/patrick-replogle/bugtracker-fe',
     backendGithubUrl: 'https://github.com/patrick-replogle/bugtracker-be',
@@ -24,8 +24,8 @@ export const projects = [
     name: 'Neighborhood Chef',
     description: `Neighborhood Chef provides a uniquely intimate approach to social culinary gatherings, allowing for both the creation and attending 
     of culinary events in your neighborhood.`,
-    techStack: `I designed and built this app along with one UX designer and a small team of web developers. The backend was built using
-    Node, Graphql, Express, Okta, Knex, PostrgreSQL, Cloudinary, Heroku and Docker. The frontend was built using React, Redux Hooks, Graphql,
+    techStack: `I designed and built this app along with one UX designer and a small team of web developers. The backend was built with
+    Node, Graphql, Express, Okta, Knex, PostrgreSQL, Cloudinary, Heroku and Docker. The frontend was built with React, Redux Hooks, Graphql,
     Material UI, Mapbox, Netlify, Formik, and Yup.`,
     deployedUrl: 'https://neighborhoodchef.netlify.app/',
     frontendGithubUrl:
@@ -57,8 +57,8 @@ export const projects = [
     description: `CoMake is a solution oriented web app geared towards bringing community members together to solve local problems. 
       CoMake provides users with a platfrom to call attention to local issues, volunteer their time or resources, or simply 
       ask for help.`,
-    techStack: `CoMake is a full stack app that I built myself. The backend was created with Node JS, Express, Knex, bcryptjs, SQLite3, 
-      PostrgeSQL, Heroku, Jest, Supertest, and jsonwebtokens. The front end was designed using React, Context API, Sass, Formik,
+    techStack: `I built the backend with Node JS, Express, Knex, bcryptjs, SQLite3, 
+      PostrgeSQL, Heroku, Jest, Supertest, and jsonwebtokens. I designed and implemented the frontend using React, Context API, Sass, Formik,
       Yup, and Material UI.`,
     deployedUrl: 'https://co-make-fe.herokuapp.com',
     backendGithubUrl: 'https://github.com/patrick-replogle/co-make-be',
@@ -74,7 +74,7 @@ export const projects = [
       are concealed from the other player and players alternate turns calling "shots" at the other player's 
       ships. The second player in this implementation of Battleship is played by the computer. Destroy all 
       five of the computer's ships and you win the game!`,
-    techStack: `I created this rendition of Battleship using React and styled-components`,
+    techStack: `I created this rendition of Battleship using React Hooks and styled-components`,
     deployedUrl: 'https://battleship-six.vercel.app/',
     frontendGithubUrl: 'https://github.com/patrick-replogle/battleship',
     imgSrc: battleship
