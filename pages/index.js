@@ -25,8 +25,8 @@ const About = () => {
             interesting project or learn a new technology.
           </p>
           <p>
-            In my spare time I enjoy writing and recording music, reading,
-            hiking with my dog and searching fors the ultimate tacos.
+            In my spare time I enjoy performing and recording music, reading,
+            hiking with my dog Elvis and searching for the ultimate tacos.
           </p>
           <p>Some technologies I've been working with recently:</p>
           <div className={styles.skills}>
