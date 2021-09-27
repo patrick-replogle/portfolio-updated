@@ -26,7 +26,7 @@ const About = () => {
           </p>
           <p>
             In my spare time I enjoy performing and recording music, reading,
-            hiking with my dog Elvis and searching for the ultimate tacos.
+            hiking with my dog Elvis, and searching for the ultimate burrito.
           </p>
           <p>Some technologies I've been working with recently:</p>
           <div className={styles.skills}>
