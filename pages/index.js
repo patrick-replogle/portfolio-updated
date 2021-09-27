@@ -4,7 +4,7 @@ import styles from '../styles/about.module.scss';
 
 import { skills } from '../util/data.js';
 
-import portrait from '../public/images/portrait.jpg';
+import portrait from '../public/images/portrait2.jpg';
 
 const About = () => {
   return (
